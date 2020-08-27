@@ -13,6 +13,10 @@ requirements:
   run:
     - jupyter-sphinx=={{ version }}
 
+test:	
+  imports:	
+    - jupyter_sphinx
+
 about:
   home: https://github.com/jupyter/jupyter-sphinx
   license: BSD-3-Clause
