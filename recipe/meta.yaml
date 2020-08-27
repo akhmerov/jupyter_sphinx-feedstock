@@ -8,7 +8,7 @@ package:
 
 requirements:
   run:
-    - jupyter-sphinx=={{version}}
+    - jupyter-sphinx=={{ version }}
 
 about:
   home: https://github.com/jupyter/jupyter-sphinx
