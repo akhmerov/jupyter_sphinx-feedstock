@@ -6,6 +6,9 @@ package:
   name: {{ name|lower }}
   version: {{ version }}
 
+build:
+  number: 1
+
 requirements:
   run:
     - jupyter-sphinx=={{ version }}
