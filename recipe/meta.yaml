@@ -13,8 +13,8 @@ requirements:
   run:
     - jupyter-sphinx=={{ version }}
 
-test:	
-  imports:	
+test:
+  imports:
     - jupyter_sphinx
 
 about:
